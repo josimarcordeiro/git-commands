@@ -1,7 +1,20 @@
 # git-commands
 ## Comandos Git mais utilizados
 
-Descobrir quais branchs estão disponíveis remotamente, ou seja, todos do projeto.
+Atualizar a lista local de ramificações remotas
+
+```
+git remote update origin --prune
+```
+
+Mostrar todos os branchs locais e remotos que o Git (local) conhece
+
+```
+git branch -a
+```
+
+
+Mostrar todos os branchs remotos que o Git (local) conhece
 ```
 git branch -r
 ```
